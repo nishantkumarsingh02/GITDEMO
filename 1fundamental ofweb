@@ -1,0 +1,110 @@
+# Fundamentals of Web Technology
+
+## What is the Web?
+
+The World Wide Web (WWW) is a system of interlinked hypertext documents and resources accessed via the internet. It was invented by Tim Berners-Lee in 1989. The web allows users to navigate between pages using hyperlinks and view multimedia content.
+
+## Client-Server Architecture
+
+The web operates on a client-server model:
+- **Client**: The user's web browser (e.g., Chrome, Firefox, Safari)
+- **Server**: Computers that host websites and respond to client requests
+- Communication happens via the HTTP/HTTPS protocol
+
+## HTTP Protocol
+
+HTTP (HyperText Transfer Protocol) is the foundation of data communication on the web:
+- **Request-Response Cycle**: Client sends a request, server responds
+- **Methods**: GET (retrieve), POST (submit), PUT (update), DELETE (remove)
+- **Status Codes**: 200 (OK), 404 (Not Found), 500 (Server Error)
+- **HTTPS**: Secure version using SSL/TLS encryption
+
+## HTML (HyperText Markup Language)
+
+HTML provides the structure and content of web pages:
+- **Elements**: Building blocks like `<h1>`, `<p>`, `<div>`, `<img>`
+- **Attributes**: Additional information (e.g., `src` for images, `href` for links)
+- **Semantic HTML**: Meaningful tags like `<header>`, `<nav>`, `<article>`, `<footer>`
+- **Forms**: For user input with elements like `<input>`, `<textarea>`, `<select>`
+
+## CSS (Cascading Style Sheets)
+
+CSS controls the presentation and layout of web pages:
+- **Selectors**: Target HTML elements (e.g., `.class`, `#id`, `element`)
+- **Properties**: Define appearance (color, font, size, position)
+- **Box Model**: Content, padding, border, margin
+- **Responsive Design**: Media queries for different screen sizes
+- **Flexbox & Grid**: Modern layout systems
+
+## JavaScript
+
+JavaScript adds interactivity and dynamic behavior:
+- **Variables & Data Types**: `let`, `const`, strings, numbers, objects, arrays
+- **Functions**: Reusable code blocks
+- **DOM Manipulation**: Interact with HTML elements
+- **Events**: Respond to user actions (clicks, scrolls, etc.)
+- **Asynchronous Programming**: Promises, async/await for API calls
+- **Frameworks**: React, Vue, Angular for complex applications
+
+## Web Browsers
+
+Browsers render web pages and execute code:
+- **Rendering Engine**: Parses HTML/CSS and displays content
+- **JavaScript Engine**: Executes JavaScript code (e.g., V8 in Chrome)
+- **Developer Tools**: Inspect elements, debug code, monitor network
+- **Compatibility**: Cross-browser testing for consistent experience
+
+## Web Servers
+
+Servers host and serve web content:
+- **Web Server Software**: Apache, Nginx, IIS
+- **Backend Languages**: Node.js, PHP, Python (Django/Flask), Ruby (Rails)
+- **Databases**: Store and retrieve data (MySQL, PostgreSQL, MongoDB)
+- **APIs**: RESTful and GraphQL for data exchange
+
+## URLs and DNS
+
+- **URL Structure**: Protocol://domain/path?query#fragment
+- **DNS (Domain Name System)**: Translates domain names to IP addresses
+- **Hosting**: Shared, VPS, dedicated, cloud (AWS, Azure, GCP)
+
+## Web Development Process
+
+1. **Planning**: Define requirements and user experience
+2. **Design**: Wireframes and mockups
+3. **Development**: Write code (HTML, CSS, JS)
+4. **Testing**: Cross-browser, responsive, performance
+5. **Deployment**: Upload to web server
+6. **Maintenance**: Updates, security, monitoring
+
+## Web Standards and Best Practices
+
+- **W3C Standards**: HTML, CSS, accessibility guidelines
+- **SEO (Search Engine Optimization)**: Improve visibility in search results
+- **Performance**: Optimize loading speed, minimize file sizes
+- **Security**: HTTPS, input validation, XSS/CSRF protection
+- **Accessibility**: WCAG guidelines for inclusive design
+
+## Modern Web Technologies
+
+- **Progressive Web Apps (PWAs)**: App-like experience on the web
+- **WebAssembly**: Run high-performance code in browsers
+- **WebRTC**: Real-time communication (video/audio)
+- **Service Workers**: Background processing and caching
+- **Web Components**: Reusable UI components
+
+## Tools and Workflow
+
+- **Version Control**: Git for code management
+- **Package Managers**: npm, yarn for dependencies
+- **Build Tools**: Webpack, Vite for bundling and optimization
+- **Code Editors**: VS Code, Sublime Text
+- **Browser DevTools**: Chrome DevTools, Firefox Developer Edition
+
+## Future of Web Technology
+
+- **Web3**: Decentralized web with blockchain
+- **AI Integration**: Machine learning in browsers
+- **Edge Computing**: Processing closer to users
+- **5G and Beyond**: Faster, more reliable connections
+- **Virtual/Augmented Reality**: Immersive web experiences
